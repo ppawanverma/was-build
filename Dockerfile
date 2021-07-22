@@ -1,5 +1,5 @@
 #FROM ibmcom/websphere-traditional:latest as base
-FROM ppawanverma/demo:metrics-9.0.5.8
+FROM ppawanverma/demo:metrics.9.0.5.8.latest
 #FROM ibmcom/websphere-traditional:latest
 #COPY --from=base --chown=was:root /opt/IBM/WebSphere/AppServer/installableApps/metrics.ear /work/config/metrics.ear
 COPY --chown=was:root installApp.py /work/config/
